@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html id = "back">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+<section>
+	<div id = "top1">
+		<h3> EXPERIENCE THE BIG SCREEN </h3>
+	</div>
+	<div id = "ad"> </div>
+</section>
+
+<section>
+	<div id = "first" >
+    	<div id = "top"">
+				<img src="../logo.jpg" width="50px">
+			</div>
+		<div id= "side">
+				<a href = "../index.html"> Home </a>
+				<a href = "../NowPlaying.html"> Now Playing </a>
+				<a href = "../index.html"> Theatres </a>
+				<a href= "../about.html"> About Us </a>
+		</div>
+	</div> 
+</section>
+
+<section id = "formcss">
+	<div>
+		<p> </p>
+		<form id = "forms" action="https://formspree.io/f/xleopldd" method="POST">
+ 		<label>
+    	Name: 
+    	<input type="text" name="_name" required>
+ 		</label>
+		<p> </p>
+
+		<label>
+		 Your email: 
+		 <input type= "email" name = "email_" required>
+		</label>
+		<p> </p>
+
+		<label>
+		  Address:
+			<input type = "text" name = "address_" required>
+		</label>
+		<p> </p>
+
+		<label>
+		  City:
+		</label>
+		<input list = "city-names" name = "city_" required>
+		<datalist id="city-names">
+   		 	<option value="Toronto">
+    		<option value="Markham">
+   			<option value="Stouville">
+    		<option value="Richmond Hill">
+    		<option value="Vaughn">
+			<option value="Ajax">
+    		<option value="Vacouver">
+			<option value="Manitoba">
+    		<option value="Quebec City">
+		</datalist>
+		<p> </p>
+
+		<label>
+		  Postal Code:
+			<input type = "text" name = "postal_" pattern = "[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" required>
+		</label>
+		<p> </p>
+
+		<h3>  Options: </h3>
+			
+			<label id = "option12" value = "not">
+				Question
+				<input id = "option" type= "radio" name = "option" value = "question" onclick = "hide()">
+			</label>
+
+			<label id = "option12" value = "not">
+				Comment
+				<input id = "option" type = "radio" name = "option"  onclick = "hide()">
+			</label>
+
+			<label id = "option12" value = "order">
+				Order Problem
+				<input id ="option" type = "radio" name = "option"  onclick = "appear()" value = "order">
+			</label>
+		
+		<p>
+		<label id = "option2">
+			Order  Number:
+			<input type = "number" name = "_reportNum">
+		</label>
+		</p>
+
+		<label>
+			<input type = "hidden" name = "address_" required>
+		</label>
+		<p> </p>
+
+  		<label>
+    	Your message:
+    	<textarea name="message"></textarea>
+ 	 	</label>
+	
+
+  		<button type="submit">Send</button>
+		</form>
+		<p> </p>
+	</div>
+</section>
+
+<section>
+		<div id = "offer">
+			<div id = "left">
+				<h2 id = "header2"> Our Company </h3>
+				<p id = "paragraph2"> Lorem, ipsum dolor sit amet consectetur adispisicing elit. Ut, omnis>
+				</p>
+			
+				<h4 id = "section"> <a href = "../index.html"> Contact Us </a> </h4>
+				<h4 id = "section" ><a href = "../index.html"> Investor Relations </a> </h4>
+				<h4 id = "section"><a href = "../index.html"> Media Center </a> </h4>
+
+				<form id = "forms"
+  					action="https://formspree.io/f/mjvpaobq"
+ 				 	method="POST" >
+  					<label>
+    				Your email:
+					<p> </p>
+   					<input type="email" name="_replyto" required>
+  					</label>
+					<p> </p>
+  					<button type="subscribe">Subscribe</button>
+				</form>
+		
+			</div>
+			<div id = "middle1">
+				<h3 id = "header2"> Movies </h3>
+				<p id = "paragraph2"> Lorem, ipsum dolor sit amet consectetur adispisicing elit. Ut, omnis? </p>
+				<h4 id = "section"> <a href = "../index.html"> Theatres </a> </h4>
+				<h4 id = "section"> <a href = "../index.html"> Movies </a> </h4>
+				<h4 id = "section" ><a href = "../index.html"> Ratings </a> </h4>
+				<h4 id = "section"><a href = "../index.html"> IMAX </a> </h4>
+			</div>
+			<div id = "right" >
+				<h3 id = "header2"> More </h3>
+				<p id = "paragraph2"> Lorem, ipsum dolor sit amet consectetur adispisicing elit. Ut, omnis? </p>
+				<h4 id = "section"> <a href = "../index.html"> Gift Cards </a> </h4>
+				<h4 id = "section"> <a href = "../index.html"> Mobile App </a> </h4>
+				<h4 id = "section" ><a href = "../index.html"> Offers & Promotions </a> </h4>
+				<h4 id = "section"><a href = "../index.html"> Request Refund</a> </h4>
+			</div>
+
+		</div>
+	</section>
+
+
+</section>
+		<section>
+		<div id = "copyright">
+			<p>
+				@Copyright 2020 TCMEA
+			</p>
+		</div>
+	</section>
+
+<script>
+
+function hide()
+{
+   
+ document.getElementById("option2").style.display = "none";
+  
+}
+
+function appear()
+{
+  document.getElementById("option2").style.display = "block";
+}
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+
+#head
+{
+	font-size: 10px;
+}
+
+#side a
+{
+ float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+}
+
+#side a:hover
+{
+  background-color: #000;
+  color:red;
+}
+
+#first   
+{
+	display: grid;
+	grid-template-areas:
+	'left right';
+}
+
+#top
+{
+	display: left;
+	 text-align: left;
+   padding: 14px 16px;
+  background-color: #000;
+  color: #fff;
+}
+
+
+#side
+{
+	display: right;
+	 text-align: center;
+  padding: 10px 16px;
+  background-color: #000;
+  color: #fff;
+}
+
+#ad
+{
+  text-align: center;
+  color: gray;
+  background-repeat: no-repeat;
+  background-image: url("croods.jpg");
+  padding: 100px 16px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#Movies
+{ 
+	  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #333;
+  padding: 10px;
+}
+
+#Section
+{
+  padding: 20px;
+  text-align: center;
+   grid-template-rows: 80px 200px;
+ 	justify-content: space-between;
+}
+
+
+#Section a
+{
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  
+
+}
+
+#Section a:hover
+{
+ background-color: #333;
+  color: #555;
+}
+
+#Section 
+{	
+	display: right;
+	text-align: center;
+    padding: 10px 16px;
+    color: #fff;
+}
+
+#top1
+{
+	color: #555;
+	background-color:  #000;
+	padding: 1px 10px;
+	text-align: center;
+}
+
+#mid
+{
+	padding: 15px 16px;
+	background-color: #333;
+	color: #ccc;
+	text-align: center;
+}
+
+#mid1
+{
+	border-style: solid;
+	border: 100px;
+	color: #555;
+  	background-color: #000;
+	  text-align:center;
+}
+
+
+#popcorn
+{
+	margin-left: 0px;
+  background-image: url("Popcorn.jpg");
+  text-align: center;
+  color: #000;
+  padding: 150px;
+  display: right;
+}
+
+
+#movie
+{
+	margin-left: 0px;
+  background-image: url("cinema.jpg");
+  text-align: center;
+  color: #000;
+  padding: 150px;
+  display: right;
+  background-size: cover;
+  position: relative;
+}
+
+space
+{
+	display:block;
+	padding: 1000px;
+}
+
+
+#copyright
+{
+  background-color: #000;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  text-size-adjust: 4px;
+  color: #fff
+}
+
+#left 
+{
+	color: #fff;
+	grid-area: left;
+	background-color: #000;
+	padding: 10px;
+	height: 350px;
+}
+
+#right
+{
+	color: #fff;
+	grid-area:right;
+	background-color: #000;
+	padding: 10px;
+	height: 350px;
+
+}
+
+#middle1
+{
+	color: #fff;
+	grid-area:middle;
+	background-color: #000;
+	padding: 10px;
+	height: 350px;
+}
+
+#offer
+{
+	color: #fff;
+	display: grid;
+	grid-template-areas:
+	'left left middle middle right right';
+}
+
+#header2
+{
+	font-size: 14px;
+	text-align: left;
+}
+
+#paragraph2
+{
+	text-align: left;
+}
+
+#section 
+{	
+	display: left;
+	text-align: left;
+    padding: 1px;
+    color: #fff;
+}
+
+#section a
+{
+  padding: 1px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  
+
+}
+
+#section a:hover
+{
+ background-color: #000;
+  color: #555;
+}
+
+#header3
+{
+	font-size: 14px;
+	text-align: left;
+}
+
+#paragraph3
+{
+	text-align: left;
+}
+
+#forms  button
+{
+  background-color: #000;
+  border: none;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#option2
+{
+	display: none;
+}
+
+#formcss
+{
+	  background-color: #333;
+  border: none;
+  color: #ddd;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 20px;
+}
+
+#back
+{
+	background-color: #333;
+}
+
